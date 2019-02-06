@@ -7,15 +7,24 @@
     "test": "jest"
   },
   "dependencies": {
+    "expo": "^32.0.4",
+    "expo-constants": "^2.0.1",
+    "graceful-fs": "^4.1.15",
+    "handlebars": "^4.0.12",
+    "jest-haste-map": "^24.0.0",
+    "jest-junit": "^6.2.1",
     "react": "16.6.3",
-    "react-native": "0.58.3"
+    "react-native": "0.58.3",
+    "react-native-camera": "^1.10.1",
+    "sane": "^4.0.2"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.1.0",
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.51.1",
-    "react-test-renderer": "16.6.3"
+    "react-test-renderer": "16.6.3",
+    "react-native-camera-kit": "latest"
   },
   "jest": {
     "preset": "react-native"
