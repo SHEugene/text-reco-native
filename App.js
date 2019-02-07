@@ -9,7 +9,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import {CameraKitGalleryView } from 'react-native';
+import { CameraKitGalleryView } from 'react-native-camera-kit';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -23,14 +23,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-		  <CameraKitGalleryView
-			  ref={gallery => this.gallery = gallery}
-			  style={{flex: 1, marginTop: 20}}
-			  minimumInteritemSpacing={10}
-			  minimumLineSpacing={10}
-		  />
-                </View>
+		  <CameraKitGalleryView/>
+	  </View>
     );
   }
 }
